@@ -1,0 +1,143 @@
+
+.bg-particles {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+#particle_layer_1 {
+	width: 1px;
+	height: 1px;
+	top: 100%;
+	position:absolute;
+	animation: anim 40s linear infinite;
+	animation-delay: -65s;
+	box-shadow: 49vw 30vh white,88vw 100vh white,84vw 68vh white,57vw 64vh white,48vw 39vh white,51vw 22vh white,45vw 22vh white,87vw 62vh white,98vw 87vh white,77vw 92vh white,79vw 8vh white,92vw 44vh white,27vw 23vh white,65vw 37vh white,5vw 7vh white,94vw 78vh white,58vw 69vh white,6vw 97vh white,48vw 6vh white,72vw 0vh white,44vw 49vh white,45vw 8vh white,27vw 63vh white,3vw 34vh white,97vw 57vh white,13vw 44vh white,46vw 63vh white,95vw 59vh white,26vw 50vh white,4vw 79vh white,12vw 36vh white,11vw 55vh white,63vw 56vh white,95vw 84vh white,79vw 86vh white,78vw 94vh white,67vw 35vh white,20vw 17vh white,5vw 17vh white,56vw 10vh white,5vw 41vh white,80vw 45vh white,17vw 71vh white,45vw 73vh white,99vw 98vh white,92vw 2vh white,68vw 75vh white,9vw 27vh white,98vw 76vh white,54vw 49vh white,0vw 51vh white,57vw 54vh white,25vw 7vh white,50vw 2vh white,86vw 2vh white,22vw 87vh white,32vw 11vh white,69vw 94vh white,41vw 67vh white,27vw 4vh white,79vw 72vh white,68vw 57vh white,28vw 10vh white,96vw 34vh white,33vw 80vh white,49vw 45vh white,48vw 97vh white,61vw 12vh white,50vw 83vh white,5vw 74vh white,88vw 70vh white,62vw 91vh white,65vw 59vh white,19vw 4vh white,34vw 12vh white,95vw 88vh white,83vw 19vh white,36vw 4vh white,68vw 29vh white,50vw 34vh white,75vw 30vh white,47vw 69vh white,84vw 35vh white,36vw 16vh white,60vw 38vh white,88vw 66vh white,7vw 89vh white,86vw 68vh white,94vw 85vh white,29vw 88vh white,54vw 34vh white,19vw 5vh white,61vw 35vh white,72vw 53vh white,79vw 0vh white,33vw 93vh white,82vw 98vh white,38vw 54vh white,97vw 92vh white,37vw 90vh white,21vw 46vh white;
+}
+
+#particle_layer_2 {
+	width: 2px;
+	height: 2px;
+	position:absolute;
+	animation: anim 45s linear infinite;
+	animation-delay: -85s;
+	box-shadow: 64vw 23vh white,63vw 28vh white,7vw 84vh white,92vw 25vh white,90vw 75vh white,91vw 82vh white,86vw 23vh white,44vw 68vh white,36vw 65vh white,8vw 44vh white,64vw 36vh white,37vw 26vh white,85vw 29vh white,40vw 11vh white,30vw 96vh white,33vw 13vh white,83vw 69vh white,9vw 28vh white,89vw 71vh white,77vw 69vh white,99vw 66vh white,26vw 60vh white,91vw 97vh white,81vw 27vh white,7vw 55vh white,57vw 25vh white,74vw 6vh white,14vw 16vh white,57vw 77vh white,37vw 14vh white,91vw 63vh white,32vw 89vh white,79vw 100vh white,83vw 64vh white,2vw 47vh white,25vw 54vh white,93vw 34vh white,13vw 21vh white,18vw 47vh white,90vw 98vh white,2vw 3vh white,60vw 98vh white,88vw 73vh white,29vw 55vh white,48vw 8vh white,95vw 43vh white,52vw 59vh white,29vw 81vh white,63vw 27vh white,84vw 53vh white,8vw 15vh white,0vw 15vh white,31vw 28vh white,16vw 97vh white,90vw 87vh white,86vw 52vh white,99vw 88vh white,77vw 14vh white,79vw 23vh white,3vw 35vh white,72vw 58vh white,35vw 63vh white,63vw 32vh white,93vw 11vh white,37vw 67vh white,6vw 5vh white,62vw 99vh white,92vw 24vh white,18vw 7vh white,74vw 86vh white,50vw 48vh white,93vw 31vh white,62vw 97vh white,68vw 87vh white,12vw 36vh white,99vw 95vh white,38vw 69vh white,52vw 39vh white,15vw 36vh white,47vw 0vh white,75vw 96vh white,59vw 78vh white,4vw 67vh white,66vw 95vh white,55vw 66vh white,36vw 34vh white,76vw 0vh white,63vw 55vh white,98vw 43vh white,30vw 22vh white,46vw 49vh white,5vw 95vh white,37vw 82vh white,28vw 53vh white,86vw 72vh white,63vw 23vh white,18vw 39vh white,9vw 78vh white,85vw 96vh white,41vw 42vh white,78vw 52vh white;
+}
+
+#particle_layer_3 {
+	width: 1px;
+	height: 1px;
+	position:absolute;
+	animation: anim 55s linear infinite;
+	animation-delay: -120s;
+	box-shadow: 64vw 14vh white,47vw 43vh white,28vw 12vh white,40vw 45vh white,53vw 34vh white,53vw 0vh white,43vw 63vh white,31vw 32vh white,7vw 97vh white,37vw 31vh white,75vw 67vh white,16vw 24vh white,50vw 4vh white,53vw 33vh white,31vw 24vh white,18vw 7vh white,36vw 27vh white,72vw 5vh white,68vw 23vh white,71vw 89vh white,36vw 71vh white,79vw 63vh white,62vw 20vh white,12vw 7vh white,45vw 22vh white,5vw 1vh white,77vw 39vh white,34vw 81vh white,68vw 45vh white,94vw 74vh white,30vw 81vh white,39vw 35vh white,37vw 43vh white,12vw 54vh white,33vw 66vh white,34vw 31vh white,81vw 95vh white,13vw 44vh white,93vw 97vh white,68vw 13vh white,54vw 58vh white,19vw 81vh white,90vw 99vh white,82vw 36vh white,11vw 37vh white,82vw 27vh white,88vw 33vh white,3vw 90vh white,11vw 20vh white,100vw 27vh white,44vw 2vh white,79vw 78vh white,13vw 73vh white,67vw 39vh white,51vw 97vh white,72vw 61vh white,54vw 90vh white,98vw 9vh white,25vw 49vh white,62vw 8vh white,38vw 85vh white,28vw 56vh white,96vw 53vh white,64vw 17vh white,33vw 32vh white,29vw 99vh white,44vw 52vh white,20vw 86vh white,70vw 69vh white,62vw 89vh white,90vw 85vh white,75vw 48vh white,6vw 84vh white,48vw 81vh white,84vw 96vh white,57vw 23vh white,47vw 61vh white,71vw 24vh white,65vw 62vh white,100vw 21vh white,90vw 57vh white,63vw 8vh white,26vw 96vh white,5vw 46vh white,28vw 85vh white,21vw 68vh white,77vw 47vh white,43vw 76vh white,8vw 55vh white,92vw 37vh white,17vw 74vh white,13vw 34vh white,65vw 46vh white,21vw 16vh white,91vw 96vh white,30vw 99vh white,8vw 85vh white,95vw 84vh white,53vw 7vh white,71vw 29vh white,55vw 46vh white;
+}
+
+#particle_layer_4 {
+	width: 2px;
+	height: 2px;
+	position:absolute;
+	animation: anim 60s linear infinite;
+	animation-delay: -120s;
+	box-shadow: 83vw 8vh white,86vw 9vh white,88vw 89vh white,74vw 12vh white,100vw 72vh white,17vw 47vh white,53vw 59vh white,19vw 48vh white,61vw 14vh white,55vw 95vh white,100vw 88vh white,66vw 25vh white,58vw 70vh white,8vw 73vh white,60vw 79vh white,83vw 57vh white,98vw 15vh white,82vw 87vh white,55vw 31vh white,44vw 36vh white,63vw 77vh white,28vw 99vh white,19vw 9vh white,76vw 28vh white,45vw 38vh white,91vw 87vh white,3vw 62vh white,54vw 45vh white,45vw 59vh white,73vw 40vh white,88vw 21vh white,1vw 94vh white,63vw 47vh white,38vw 0vh white,27vw 71vh white,99vw 13vh white,56vw 96vh white,6vw 40vh white,84vw 30vh white,53vw 2vh white,62vw 69vh white,44vw 72vh white,69vw 19vh white,89vw 69vh white,74vw 53vh white,86vw 72vh white,49vw 85vh white,70vw 71vh white,50vw 5vh white,44vw 75vh white,70vw 47vh white,9vw 54vh white,91vw 40vh white,71vw 20vh white,82vw 91vh white,76vw 5vh white,15vw 19vh white,86vw 88vh white,81vw 22vh white,73vw 30vh white,76vw 71vh white,49vw 31vh white,31vw 6vh white,17vw 21vh white,18vw 80vh white,100vw 65vh white,11vw 52vh white,60vw 84vh white,56vw 88vh white,94vw 3vh white,61vw 24vh white,45vw 100vh white,5vw 13vh white,69vw 16vh white,27vw 94vh white,8vw 40vh white,4vw 52vh white,30vw 30vh white,55vw 30vh white,34vw 5vh white,35vw 69vh white,13vw 3vh white,40vw 68vh white,48vw 68vh white,3vw 35vh white,72vw 8vh white,2vw 81vh white,79vw 73vh white,31vw 22vh white,75vw 24vh white,41vw 17vh white,4vw 63vh white,12vw 15vh white,4vw 48vh white,58vw 88vh white,84vw 69vh white,96vw 76vh white,83vw 93vh white,81vw 46vh white,69vw 59vh white,96vw 55vh white;
+}
+
+#particle_layer_5 {
+	width: 3px;
+	height: 3px;
+	position:absolute;
+	top: 0%;
+	animation: anim 70s linear infinite;
+	animation-delay: -138s;
+	box-shadow: 14vw 91vh white,96vw 56vh white,57vw 73vh white,0vw 95vh white,43vw 99vh white,68vw 33vh white,35vw 55vh white,33vw 84vh white,66vw 38vh white,31vw 72vh white,21vw 68vh white,9vw 26vh white,71vw 21vh white,35vw 17vh white,98vw 84vh white,62vw 10vh white,33vw 4vh white,86vw 18vh white,5vw 92vh white,70vw 1vh white,4vw 57vh white,7vw 33vh white,23vw 4vh white,100vw 33vh white,63vw 72vh white,64vw 70vh white,17vw 59vh white,93vw 99vh white,24vw 54vh white,23vw 21vh white,73vw 58vh white,7vw 19vh white,24vw 25vh white,55vw 45vh white,30vw 76vh white,11vw 74vh white,29vw 25vh white,95vw 5vh white,47vw 35vh white,70vw 97vh white,78vw 74vh white,35vw 65vh white,10vw 73vh white,75vw 21vh white,14vw 87vh white,70vw 41vh white,4vw 48vh white,22vw 78vh white,60vw 44vh white,9vw 61vh white,56vw 36vh white,59vw 64vh white,60vw 87vh white,2vw 3vh white,72vw 82vh white,28vw 76vh white,18vw 55vh white,1vw 29vh white,74vw 40vh white,19vw 87vh white,79vw 88vh white,86vw 33vh white,60vw 57vh white,19vw 78vh white,66vw 31vh white,72vw 28vh white,70vw 89vh white,45vw 96vh white,38vw 65vh white,2vw 59vh white,40vw 1vh white,86vw 86vh white,72vw 31vh white,75vw 98vh white,67vw 41vh white,69vw 38vh white,27vw 60vh white,94vw 90vh white,94vw 48vh white,100vw 64vh white,25vw 71vh white,82vw 42vh white,71vw 25vh white,10vw 65vh white,42vw 46vh white,40vw 52vh white,7vw 87vh white,89vw 27vh white,65vw 21vh white,7vw 80vh white,68vw 21vh white,0vw 77vh white,92vw 63vh white,92vw 96vh white,94vw 45vh white,51vw 62vh white,56vw 48vh white,2vw 12vh white,4vw 74vh white,43vw 19vh white,91vw 73vh white;
+}
+
+#particle_layer_1::after {
+	content: "";
+	width: 1px;
+	height: 1px;
+	position:absolute;
+	transform: translateY(-100vh);
+	animation: anim 15s linear infinite;
+	animation-delay: -50s;
+	box-shadow: 85vw 80vh white,98vw 77vh white,6vw 21vh white,63vw 46vh white,18vw 50vh white,49vw 25vh white,99vw 89vh white,35vw 5vh white,29vw 40vh white,14vw 89vh white,71vw 81vh white,57vw 36vh white,61vw 13vh white,48vw 96vh white,44vw 58vh white,74vw 6vh white,21vw 68vh white,25vw 78vh white,9vw 74vh white,58vw 68vh white,15vw 22vh white,38vw 56vh white,97vw 50vh white,96vw 11vh white,9vw 100vh white,22vw 3vh white,16vw 46vh white,67vw 94vh white,98vw 71vh white,4vw 20vh white,93vw 63vh white,63vw 68vh white,33vw 74vh white,2vw 37vh white,31vw 44vh white,35vw 57vh white,81vw 67vh white,10vw 14vh white,90vw 94vh white,33vw 15vh white,53vw 70vh white,49vw 100vh white,62vw 30vh white,82vw 14vh white,39vw 12vh white,100vw 58vh white,55vw 62vh white,1vw 43vh white,40vw 63vh white,63vw 40vh white,27vw 95vh white,84vw 89vh white,13vw 49vh white,21vw 71vh white,84vw 43vh white,97vw 43vh white,11vw 100vh white,50vw 6vh white,59vw 5vh white,64vw 80vh white,81vw 11vh white,72vw 45vh white,21vw 18vh white,54vw 20vh white,64vw 79vh white,83vw 85vh white,50vw 44vh white,46vw 25vh white,28vw 68vh white,93vw 74vh white,5vw 16vh white,74vw 4vh white,12vw 90vh white,76vw 95vh white,3vw 61vh white,7vw 7vh white,27vw 86vh white,44vw 0vh white,41vw 53vh white,44vw 18vh white,26vw 65vh white,63vw 29vh white,14vw 77vh white,36vw 2vh white,47vw 2vh white,18vw 45vh white,34vw 98vh white,32vw 5vh white,97vw 19vh white,67vw 30vh white,2vw 59vh white,66vw 93vh white,71vw 38vh white,98vw 95vh white,31vw 24vh white,1vw 98vh white,33vw 68vh white,49vw 9vh white,89vw 47vh white,6vw 82vh white,89vw 33vh white;
+}
+
+#particle_layer_2:after {
+	content: "";
+	width: 2px;
+	height: 2px;
+	position:absolute;
+	transform: translateY(-100vh);
+	animation: anim 25s linear infinite;
+	animation-delay: -60s;
+	box-shadow: 23vw 60vh white,93vw 54vh white,3vw 71vh white,95vw 26vh white,79vw 96vh white,3vw 15vh white,40vw 75vh white,51vw 54vh white,76vw 23vh white,39vw 77vh white,53vw 15vh white,39vw 20vh white,9vw 70vh white,84vw 85vh white,57vw 17vh white,37vw 100vh white,29vw 73vh white,14vw 99vh white,51vw 5vh white,30vw 84vh white,100vw 25vh white,28vw 26vh white,52vw 33vh white,43vw 98vh white,56vw 82vh white,100vw 7vh white,86vw 30vh white,97vw 21vh white,36vw 85vh white,5vw 100vh white,87vw 66vh white,72vw 27vh white,92vw 39vh white,22vw 33vh white,32vw 91vh white,95vw 96vh white,14vw 81vh white,24vw 93vh white,10vw 33vh white,10vw 91vh white,38vw 82vh white,85vw 40vh white,20vw 3vh white,98vw 71vh white,33vw 46vh white,35vw 30vh white,6vw 7vh white,13vw 38vh white,54vw 30vh white,83vw 28vh white,38vw 93vh white,54vw 98vh white,49vw 90vh white,73vw 1vh white,76vw 56vh white,23vw 83vh white,53vw 72vh white,54vw 74vh white,17vw 55vh white,75vw 14vh white,6vw 85vh white,59vw 0vh white,67vw 73vh white,10vw 17vh white,79vw 43vh white,17vw 88vh white,88vw 20vh white,19vw 70vh white,96vw 29vh white,5vw 86vh white,44vw 83vh white,66vw 81vh white,50vw 40vh white,22vw 99vh white,49vw 32vh white,64vw 68vh white,21vw 89vh white,98vw 82vh white,15vw 7vh white,70vw 18vh white,41vw 34vh white,27vw 62vh white,46vw 22vh white,61vw 44vh white,55vw 77vh white,73vw 70vh white,7vw 24vh white,74vw 23vh white,35vw 59vh white,24vw 83vh white,66vw 27vh white,57vw 65vh white,71vw 81vh white,38vw 52vh white,53vw 75vh white,9vw 23vh white,6vw 96vh white,90vw 63vh white,31vw 18vh white,31vw 37vh white,44vw 84vh white;
+}
+
+#particle_layer_3:after {
+	content: "";
+	width: 3px;
+	height: 3px;
+	position:absolute;
+	transform: translateY(-100vh);
+	animation: anim 30s linear infinite;
+	animation-delay: -70s;
+	box-shadow: 23vw 60vh white,93vw 54vh white,3vw 71vh white,95vw 26vh white,79vw 96vh white,3vw 15vh white,40vw 75vh white,51vw 54vh white,76vw 23vh white,39vw 77vh white,53vw 15vh white,39vw 20vh white,9vw 70vh white,84vw 85vh white,57vw 17vh white,37vw 100vh white,29vw 73vh white,14vw 99vh white,51vw 5vh white,30vw 84vh white,100vw 25vh white,28vw 26vh white,52vw 33vh white,43vw 98vh white,56vw 82vh white,100vw 7vh white,86vw 30vh white,97vw 21vh white,36vw 85vh white,5vw 100vh white,87vw 66vh white,72vw 27vh white,92vw 39vh white,22vw 33vh white,32vw 91vh white,95vw 96vh white,14vw 81vh white,24vw 93vh white,10vw 33vh white,10vw 91vh white,38vw 82vh white,85vw 40vh white,20vw 3vh white,98vw 71vh white,33vw 46vh white,35vw 30vh white,6vw 7vh white,13vw 38vh white,54vw 30vh white,83vw 28vh white,38vw 93vh white,54vw 98vh white,49vw 90vh white,73vw 1vh white,76vw 56vh white,23vw 83vh white,53vw 72vh white,54vw 74vh white,17vw 55vh white,75vw 14vh white,6vw 85vh white,59vw 0vh white,67vw 73vh white,10vw 17vh white,79vw 43vh white,17vw 88vh white,88vw 20vh white,19vw 70vh white,96vw 29vh white,5vw 86vh white,44vw 83vh white,66vw 81vh white,50vw 40vh white,22vw 99vh white,49vw 32vh white,64vw 68vh white,21vw 89vh white,98vw 82vh white,15vw 7vh white,70vw 18vh white,41vw 34vh white,27vw 62vh white,46vw 22vh white,61vw 44vh white,55vw 77vh white,73vw 70vh white,7vw 24vh white,74vw 23vh white,35vw 59vh white,24vw 83vh white,66vw 27vh white,57vw 65vh white,71vw 81vh white,38vw 52vh white,53vw 75vh white,9vw 23vh white,6vw 96vh white,90vw 63vh white,31vw 18vh white,31vw 37vh white,44vw 84vh white;
+}
+
+#particle_layer_4:after {
+	content: "";
+	width: 1px;
+	height: 1px;
+	position:absolute;
+	transform: translateY(-100vh);
+	animation: anim 40s linear infinite;
+	animation-delay: -90s;
+	box-shadow: 74vw 98vh white,77vw 60vh white,65vw 61vh white,72vw 90vh white,92vw 71vh white,28vw 32vh white,54vw 45vh white,68vw 34vh white,13vw 90vh white,23vw 24vh white,80vw 95vh white,35vw 48vh white,17vw 4vh white,78vw 0vh white,90vw 83vh white,5vw 57vh white,75vw 47vh white,0vw 98vh white,85vw 100vh white,100vw 33vh white,4vw 50vh white,74vw 83vh white,85vw 21vh white,50vw 15vh white,83vw 90vh white,0vw 25vh white,41vw 94vh white,25vw 59vh white,88vw 87vh white,86vw 54vh white,79vw 60vh white,69vw 46vh white,22vw 33vh white,98vw 0vh white,81vw 96vh white,54vw 51vh white,77vw 98vh white,45vw 79vh white,99vw 50vh white,36vw 35vh white,10vw 36vh white,27vw 41vh white,90vw 52vh white,26vw 29vh white,76vw 70vh white,28vw 29vh white,32vw 90vh white,51vw 28vh white,35vw 48vh white,34vw 44vh white,12vw 61vh white,62vw 53vh white,91vw 93vh white,26vw 89vh white,16vw 57vh white,7vw 8vh white,7vw 22vh white,47vw 94vh white,14vw 92vh white,31vw 98vh white,47vw 38vh white,51vw 91vh white,58vw 90vh white,24vw 91vh white,44vw 49vh white,69vw 59vh white,45vw 43vh white,93vw 17vh white,94vw 33vh white,19vw 82vh white,78vw 68vh white,16vw 18vh white,12vw 67vh white,35vw 71vh white,13vw 7vh white,45vw 47vh white,44vw 5vh white,10vw 63vh white,86vw 91vh white,71vw 25vh white,79vw 88vh white,10vw 27vh white,75vw 55vh white,60vw 61vh white,57vw 82vh white,80vw 56vh white,55vw 7vh white,77vw 7vh white,75vw 45vh white,5vw 82vh white,22vw 61vh white,89vw 71vh white,60vw 56vh white,56vw 84vh white,10vw 71vh white,30vw 15vh white,11vw 14vh white,76vw 69vh white,49vw 71vh white,60vw 24vh white,37vw 32vh white;
+}
+
+#particle_layer_5:after {
+	content: "";
+	width: 3px;
+	height: 3px;
+	position:absolute;
+	transform: translateY(-100vh);
+	animation: anim 55s linear infinite;
+	animation-delay: -100s;
+	box-shadow: 21vw 67vh white,62vw 7vh white,21vw 78vh white,93vw 33vh white,34vw 94vh white,28vw 51vh white,75vw 31vh white,57vw 42vh white,14vw 2vh white,60vw 77vh white,7vw 52vh white,57vw 0vh white,88vw 70vh white,18vw 2vh white,79vw 8vh white,40vw 88vh white,53vw 5vh white,37vw 29vh white,83vw 12vh white,65vw 28vh white,38vw 7vh white,47vw 44vh white,58vw 41vh white,46vw 84vh white,31vw 87vh white,53vw 90vh white,84vw 48vh white,58vw 32vh white,36vw 94vh white,51vw 9vh white,0vw 100vh white,55vw 43vh white,15vw 36vh white,79vw 5vh white,79vw 79vh white,36vw 69vh white,95vw 53vh white,44vw 45vh white,64vw 67vh white,70vw 86vh white,72vw 93vh white,67vw 16vh white,47vw 17vh white,53vw 46vh white,62vw 7vh white,79vw 13vh white,14vw 8vh white,52vw 88vh white,84vw 33vh white,11vw 22vh white,14vw 7vh white,17vw 88vh white,30vw 88vh white,54vw 91vh white,67vw 20vh white,52vw 87vh white,27vw 86vh white,46vw 72vh white,90vw 59vh white,6vw 39vh white,12vw 64vh white,55vw 50vh white,89vw 46vh white,29vw 32vh white,5vw 97vh white,48vw 45vh white,12vw 59vh white,57vw 9vh white,69vw 25vh white,59vw 21vh white,80vw 2vh white,4vw 43vh white,85vw 1vh white,38vw 45vh white,37vw 21vh white,51vw 98vh white,22vw 85vh white,85vw 39vh white,78vw 11vh white,95vw 23vh white,74vw 36vh white,87vw 83vh white,93vw 56vh white,33vw 17vh white,12vw 84vh white,73vw 61vh white,23vw 1vh white,68vw 93vh white,17vw 81vh white,20vw 4vh white,33vw 23vh white,64vw 57vh white,86vw 68vh white,64vw 76vh white,86vw 15vh white,18vw 81vh white,48vw 4vh white,59vw 39vh white,64vw 44vh white,49vw 12vh white,89vw 72vh white;
+}
+
+@keyframes anim {
+	0% {
+		top: -20%;
+		opacity: 0%;
+	}
+	5% {
+		opacity: 100%;
+	}
+	95% {
+		opacity: 100%;
+	}
+	100% {
+		top: 90%;
+		opacity: 0%;
+	}
+	
+}
+
+/*
+
+Python script for generating the box-shadow property
+
+import random
+res = "box-shadow: "
+res += f"{random.randint(0, 2000)}px {random.randint(0, 2000)}px"
+for i in range(0, 100):
+    res += f",{random.randint(0, 2000)}px {random.randint(0, 2000)}px white"
+res += ";"
+print(res)
+
+*/
+

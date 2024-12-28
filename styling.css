@@ -248,7 +248,7 @@ p {
 
 /*Mobile Screen Adjustments*/
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .thumbnailContent {
     display:flex;
     flex-direction: column;

@@ -63,6 +63,11 @@ p {
   margin-bottom: 2em;
 }
 
+.linkText {
+  font-size:1.3em; 
+  padding-top:1em;
+}
+
 /* FOOTER */
 
 .footer {
@@ -260,6 +265,12 @@ p {
     max-width: 100%;
   }
   h1 {
-    font-size: 1.2em;
+    font-size: 2em;
+  }
+  .titleCard {
+    font-size: 0.8em;
+  }
+  .linkText {
+    font-size: 1em;
   }
 }

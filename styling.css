@@ -267,15 +267,12 @@ p {
   h1 {
     font-size: 2em;
   }
-  .titleCard {
-    font-size: 0.8em;
-  }
   .linkText {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .titleCard {
     flex-direction: column;
-    font-size: 1.3em;
+    font-size: 0.8em;
   }
   .titleCard div {
     width: 99%;

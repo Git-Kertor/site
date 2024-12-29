@@ -278,7 +278,7 @@ p {
     width: 99%;
   }
   .subContent {
-    margin: 0;
+    margin: 0 0 1em 0;
   }
   .footer {
     margin-top:0;

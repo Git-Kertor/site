@@ -82,7 +82,7 @@ p {
 
 .footer p {
   margin: 0;
-  padding: 15px;
+  padding: 15px !important;
 }
 
 /* TITLE CARD */

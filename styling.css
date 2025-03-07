@@ -173,7 +173,7 @@ p {
 .smallImages {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* Big image has an overlay element for dynamic changing */
@@ -197,7 +197,7 @@ p {
 
 .smallImages img {
   max-width: calc(33.33% - 20px);
-  margin: 15px;
+  margin: 20px 0px 20px 0px;
 }
 
 /* Button should be in the downright corner */
